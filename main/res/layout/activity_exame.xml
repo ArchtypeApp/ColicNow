@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:gravity="center"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_margin="15dp">
+
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="15dp">
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:text="Tempo de cólica:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio11"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="- de 8 bpm"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio12"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="- de 8 bpm"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Dor:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio21"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Moderada"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio22"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Intensa"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Frequência ardíaca:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio31"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="- de 60 bpm"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio32"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="+ de 60 bpm"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Mucosas:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio41"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Roseas"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio42"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Congestionada"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Refluxos gástricos:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio51"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Ausente"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio52"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Presente"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Ausculta Abdominal:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio61"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Positiva"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio62"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Negativa"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Distensão Abdominal:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio71"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Ausente"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio72"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Presente"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow>
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_height="match_parent"
+                        android:text="Defecação:"
+                        android:textStyle="bold"
+                        android:textSize="20sp"
+                        android:textColor="@color/white"
+                        android:gravity="clip_horizontal"
+                        android:layout_weight="1"
+                        />
+
+                </TableRow>
+
+                <View
+                    android:background="@color/white"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"/>
+
+                <TableRow>
+
+                    <RadioGroup
+                        android:layout_weight="1"
+                        android:orientation="horizontal">
+
+                        <RadioButton
+                            android:id="@+id/radio81"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Presente"
+                            android:buttonTint="@color/red"/>
+
+                        <RadioButton
+                            android:id="@+id/radio82"
+                            android:textSize="17sp"
+                            android:layout_width="0dp"
+                            android:layout_weight="1"
+                            android:gravity="center"
+                            android:textColor="@color/white"
+                            android:layout_height="wrap_content"
+                            android:text="Ausente"
+                            android:buttonTint="@color/red"/>
+
+                    </RadioGroup>
+
+                </TableRow>
+
+                <TableRow
+                    android:gravity="center">
+
+                    <Button
+                        android:id="@+id/buttonAnalisar"
+                        android:layout_marginTop="10dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/red"
+                        android:text="Analisar"/>
+
+                </TableRow>
+
+
+                <TableRow
+                    android:gravity="center">
+
+                    <View
+                        android:background="@color/white"
+                        android:layout_width="match_parent"
+                        android:layout_marginTop="20dp"
+                        android:layout_height="1dp"/>
+
+                </TableRow>
+
+            </TableLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>
+

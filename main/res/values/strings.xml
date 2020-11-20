@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">ColicNow</string>
+
+    <string name="sobreText">
+
+        O objetivo do aplicativo é abordar e elucidar possíveis formas de diagnosticar uma cólica clínica e/ou cirúrgica.
+        Vale reforçar que essa é uma ferramenta de auxílio básico ao médico veterinário e não sustenta o diagnóstico geral sozinho.
+        O uso do mesmo não dispensa um atendimento clínico de um especialista na área.
+
+    </string>
+
+    <string name="consultaText">
+
+        CONSULTE UM MÉDICO VETERINÁRIO DE CONFIANÇA.
+
+    </string>
+
+    <string name="refText">
+      <li> ALVES, G. E. S. Condutas equivocadas influentes no diagnóstico e tratamento da síndrome cólica em equinos;</li>
+    </string>
+
+    <string name="refText2">
+      <li> GOLOUBEFF, B. Semiologia do abdome agudo. In: Abdome agudo equino.</li>
+    </string>
+
+
+
+    <string name="smText">
+      <li> VAN HOOGMOED, L. M. Initial diagnostic and management strategies for the acute abdomen;</li>
+    </string>
+    <string name="smText2">
+      <li> MOORE, R. M. et al. Diagnosis and treatment of endotoxemia;</li>
+    </string>
+    <string name="smText3">
+      <li> SILVA, F. H. Íleus pós-operatório em equinos;</li>
+    </string>
+    <string name="smText4">
+      <li> MOORE, J. N. An update on endotoxemia in horses;</li>
+    </string>
+    <string name="smText5">
+      <li> COELHO, C. S. e SILVA, L. C. L. C. Duodeno-jejunite proximal em equinos;</li>
+    </string>
+
+</resources>
